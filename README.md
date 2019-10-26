@@ -15,7 +15,7 @@ I imposed the following limitations :
 
 ### What I learned
 
-I was surprised to discover that randomly bouncing on the lawn boundaries was actually pretty efficient, as it covered the lawn in a reasonable amount of time. This wasn't very interesting though, so I decided to try to implement a cleverer solution. What I wanted to do was to find a cycle which covered the whole lawn, allowing "efficient" mowing of the grass. *Note : I didn't try to minimize the number of "turns", though one may want to with a real robot*
+I was surprised to discover that randomly bouncing on the lawn boundaries was actually pretty efficient, as it covered the lawn in a reasonable amount of time. This wasn't very interesting though, so I decided to try to implement a cleverer solution. What I wanted to do was to find a path which covered the whole lawn, allowing "efficient" mowing of the grass. *Note : I didn't try to minimize the number of "turns", though one may want to with a real robot*
 
 My approach works this way :
 
