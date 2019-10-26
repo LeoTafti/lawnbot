@@ -98,7 +98,7 @@ public class Mower{
         if(!atObstacleEdge){
           atObstacleEdge = true;
           obstacleIsLeft = i > 0; // i > 0 => turned right => obstacle is on the left
-          println("At obstacle edge ? " + atObstacleEdge + ", Obstacle on the left ? " + obstacleIsLeft);
+          //println("At obstacle edge ? " + atObstacleEdge + ", Obstacle on the left ? " + obstacleIsLeft);
           obstacles.add(new LinkedList<Point>());
         }
         
@@ -110,7 +110,7 @@ public class Mower{
           Point lastPoint = lastObstacle.getLast();
           if(dist(lastPoint.x, lastPoint.y , sensor.x, sensor.y) > 5){
             lastObstacle.add(new Point(sensor.x, sensor.y));
-            println(Arrays.toString(obstacles.toArray()));
+            //println(Arrays.toString(obstacles.toArray()));
           }
         }
       }
